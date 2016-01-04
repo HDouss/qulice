@@ -7,10 +7,12 @@ package foo.bar;
  * Simple.
  * @version $Id$
  * @author John Smith (john@example.com)
- * @since 1.0
  */
-public class StrictIndentation {
-    public StrictIndentation() {
+public class InvalidIndentation {
+    /**
+     * Ctor.
+     */
+    public InvalidIndentation() {
         final String first = String.format(
               "incorrect"
         );

@@ -20,7 +20,7 @@ public final class InstanceMethodRef {
      * Method to be referenced.
      * @param value Value to print
      */
-    private void doSomething(final String value) {
+    private static void doSomething(final String value) {
         System.out.println(value);
     }
 }
